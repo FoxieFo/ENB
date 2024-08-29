@@ -1,0 +1,14 @@
+.footer__inner {
+    display: flex;
+    padding-top: 3%;
+    height: 10vh;
+}
+
+.footer__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px black solid;
+    width: 100%;
+    text-align: center;
+}

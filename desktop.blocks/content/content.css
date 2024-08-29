@@ -1,0 +1,24 @@
+.content__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    height: 40vh;
+}
+
+.content__category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px black solid;
+    text-align: center;
+    width: 20%;
+}
+
+.content__page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px black solid;
+    text-align: center;
+    width: 80%;
+}
