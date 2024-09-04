@@ -1,0 +1,36 @@
+.button {
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+  border: none;
+  transition: all .3s;
+  font-style: normal;
+  font-weight: 600;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 136px;
+  height: 60px;
+
+  &_size {
+    &_l {
+      width: 136px;
+      height: 60px;
+      padding: 20.5 40px;
+    }
+
+    &_m {
+      width: 136px;
+      height: 48px;
+      padding: 14.5 40px;
+    }
+
+    &_s {
+      width: 120px;
+      height: 40px;
+      padding: 10.5 32px;
+    }
+  }
+}
