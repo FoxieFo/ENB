@@ -9,11 +9,7 @@ module.exports = {
     scripts: [{ elem: 'js', url: 'index.min.js' }],
     content: [
         { block: 'header' },
-        { block: 'main',
-            content: [
-                { block: 'content' }
-            ]
-         },
+        { block: 'main'},
         { block: 'footer' }
     ]
 };
