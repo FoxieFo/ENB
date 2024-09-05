@@ -1,4 +1,4 @@
-block('header-menu')(
+block('header-information')(
     content()(function() {
         return [
             {
@@ -30,7 +30,7 @@ block('header-menu')(
             {
                 elem: 'item',
                 mods: { type: 'email' },
-                mix: [{ block: 'font', mods: { 'body': '14R', 'color': 'white' } }],
+                mix: [{ block: 'font', mods: { body: '14R', color: 'white', weight: 'bold' }}],
                 content: [
                     {
                         block: 'icon',
@@ -56,7 +56,7 @@ block('header-menu')(
             {
                 elem: 'item',
                 mods: { type: 'phone' },
-                mix: [{ block: 'font', mods: { 'body': '14R', 'color': 'white' } }],
+                mix: [{ block: 'font', mods: { body: '14R', color: 'white', weight: 'bold' }}],
                 content: [
                     {
                         block: 'icon',

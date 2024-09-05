@@ -6,7 +6,7 @@ block('header')(
                 mix: { block: 'content' },
                 content: [
                     { elem: 'logo', content: { block: 'logo' } },
-                    { elem: 'header-menu', content: { block: 'header-menu' } }
+                    { elem: 'header-information', content: { block: 'header-information' } }
                 ]
             }
         ];
