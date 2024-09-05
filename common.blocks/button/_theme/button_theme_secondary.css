@@ -1,0 +1,17 @@
+.button_theme_secondary {
+    background: #0B0B0B;
+    color: White;
+    &_width_available{
+        width: 100%!important;
+      }
+  }
+  .button_theme_secondary.button_hovered{
+    background: #0B0B0B;
+  }
+  .button_theme_secondary.button_pressed{
+    background: #282828;
+  }
+  .button_theme_secondary.button_disabled{
+    cursor: auto;
+    pointer-events: none;
+  }

@@ -1,0 +1,18 @@
+.button_theme_teritary {
+    background-color: #FFFFFF;
+    color: #0B0B0B;
+    border: 1px solid #F3F3F3;
+    &_width_available{
+        width: 100%!important;
+      }
+  }
+  .button_theme_teritary.button_hovered{
+    border: 1px solid #00000080;
+  }
+  .button_theme_teritary.button_pressed{
+    border: 1px solid #00000080;
+  }
+  .button_theme_teritary.button_disabled{
+    cursor: auto;
+    pointer-events: none;
+  }

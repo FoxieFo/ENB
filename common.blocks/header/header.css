@@ -1,0 +1,16 @@
+.header {
+    height: 120px;
+    width: 100%;
+    top: 0;
+    background-color: #0B0B0B;
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+        height: 100%;
+        max-width: 1200px;
+    }
+}

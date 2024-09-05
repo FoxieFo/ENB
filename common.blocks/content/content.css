@@ -1,0 +1,12 @@
+.content {
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 1232px;
+
+    @media (min-width: 1232px){
+      margin: 0 auto;
+      max-width: 1200px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+}

@@ -1,5 +1,5 @@
 .button {
-  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+  box-sizing: border-box;
   border: none;
   transition: all .3s;
   font-style: normal;
@@ -11,26 +11,27 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 136px;
-  height: 60px;
+  transition: all .3s;
+  gap: 10px;
 
   &_size {
     &_l {
-      width: 136px;
       height: 60px;
-      padding: 20.5 40px;
+      padding: 20.5px 40px;
     }
 
     &_m {
-      width: 136px;
       height: 48px;
-      padding: 14.5 40px;
+      padding: 14.5px 40px;
     }
 
     &_s {
-      width: 120px;
       height: 40px;
-      padding: 10.5 32px;
+      padding: 10.5px 32px;
     }
   }
+}
+
+.button:focus {
+  outline: none;
 }

@@ -1,0 +1,27 @@
+.icon {
+    display: inline-block;
+    text-align: center;
+    background-size: contain;
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+
+    &_email-dark{
+        background-image: url('../../img/contact/contact-dark/email-dark.svg');
+    }
+    &_phone-dark{
+        background-image: url('../../img/contact/contact-dark/phone-dark.svg');
+    }
+    &_time-dark{
+        background-image: url('../../img/contact/contact-dark/time-dark.svg');
+    }
+    &_email-light{
+        background-image: url('../../img/contact/contact-light/email-light.svg');
+    }
+    &_phone-light{
+        background-image: url('../../img/contact/contact-light/phone-light.svg');
+    }
+    &_time-light{
+        background-image: url('../../img/contact/contact-light/time-light.svg');
+    }
+  }

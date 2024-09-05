@@ -1,0 +1,16 @@
+.button_theme_primary {
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    &_width_available{
+      width: 100%!important;
+    }y
+  }
+  .button_theme_primary.button_hovered{
+    background: #ffedca; /*временное решение*/
+  }
+  .button_theme_primary.button_pressed{
+    background: #f2eadaad; /*временное решение*/
+  }
+  .button_theme_primary.button_disabled{
+    cursor: auto;
+    pointer-events: none;
+  }

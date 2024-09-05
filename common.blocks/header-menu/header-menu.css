@@ -1,0 +1,19 @@
+.header-menu {
+  display: flex;
+  gap: 24px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    /* &__info {
+
+      &__heading {
+      }
+
+      &__detail {
+      }
+    } */
+  }
+}
