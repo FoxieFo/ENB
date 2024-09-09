@@ -1,0 +1,41 @@
+.input_theme_main {
+    display: inline-block;
+    border: 1px solid #000000B2;
+    border-radius: 4px;
+    padding: 16px 24px;
+
+    .input__control {
+        box-sizing: border-box;
+        padding: 0;
+        outline: 0;
+        background: #FFFFFF;
+        border: none;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    input::placeholder {
+        opacity: 0.4;
+    }
+}
+
+.input_theme_main.input_hovered {
+    border: 1px solid #0B0B0B;
+}
+
+.input_theme_main.input_focused {
+    border: 1px solid #0B0B0B;
+}
+
+.input_theme_main.input_disabled {
+    border: 1px solid #0000004D;
+}
+
+.input_theme_main.input_success {
+    border: 1px solid #04CD00;
+}
+.input_theme_main.input_error {
+    border: 1px solid #FF002F;
+}

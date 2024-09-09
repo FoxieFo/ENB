@@ -1,0 +1,22 @@
+.form-wrapper {
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 486px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-agreement {
+    display: flex;
+    gap: 24px;
+    color: #0000004D;
+}

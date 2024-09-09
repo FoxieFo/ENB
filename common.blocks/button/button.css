@@ -33,6 +33,7 @@
 
   &_type_link{
     :hover {
+      transition: color .2s;
       color: #FFB629;
     }
   }
