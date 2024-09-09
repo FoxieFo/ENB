@@ -1,0 +1,46 @@
+.tab {
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    transition: all .3s;
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    line-height: 140%;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+    gap: 10px;
+
+    &_size {
+        &_m{
+            padding: 18.5px 24px;
+        }
+        &_s{
+            padding: 10.5px 24px;
+        }
+    }
+    &_type {
+      &_grey {
+        color: #0B0B0B;
+        border: #F3F3F3 1px solid;
+      }
+  
+      &_yellow {
+        color: #FFD550;
+        border: #FFD550 1px solid;
+      }
+  
+      &_yellow-filled {
+        color: #0B0B0B;
+        background-color: #FFB629;
+      }
+    }
+  }
+  
+  .button:focus {
+    outline: none;
+  }

@@ -1,0 +1,15 @@
+.breadcrumbs {
+    &__wrapper{
+      }
+      .link{
+        display: flex;
+        align-items: center;
+      }
+      .ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+      }
+    }
+

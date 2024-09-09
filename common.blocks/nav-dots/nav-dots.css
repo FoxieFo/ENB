@@ -1,0 +1,14 @@
+.nav-dots {
+    display: flex;
+    gap: 6px;
+
+    &__dot {
+        width: 10px;
+        height: 10px;
+        background-color: #c4c4c4;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+/*цвет активной: #FFB629*/

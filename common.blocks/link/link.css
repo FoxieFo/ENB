@@ -1,16 +1,15 @@
 .link {
     cursor: pointer;
     text-decoration: none;
-    /* color: var(--Red, #FF1F00);
-    transition: color .2s; */
+    color: #00000080;
+    transition: color .2s;
     &_hovered{
-      /* color: var(--Red-Hover, #D51A00); */
+      color: #FFB629;
     }
     &_visited{
-      /* color: #7A008E; */
+      color: #00000080;
     }
     &_active{
-      /* color: var(--Red-Active, #FF4B32); */
+      color: #0B0B0B;
     }
-
 }

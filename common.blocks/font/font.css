@@ -148,4 +148,14 @@
         letter-spacing: 0%;
         font-style: normal;
     }
+    /*link*/
+
+    &_link {
+        font-family: 'Rubik', sans-serif;
+        font-size: 1rem;/* 16px */
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0%;
+        font-style: normal;
+    }
 }

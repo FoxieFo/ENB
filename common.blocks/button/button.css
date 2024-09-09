@@ -30,6 +30,12 @@
       padding: 10.5px 32px;
     }
   }
+
+  &_type_link{
+    :hover {
+      color: #FFB629;
+    }
+  }
 }
 
 .button:focus {

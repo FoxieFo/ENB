@@ -2,42 +2,78 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
     border: none;
     border-radius: 50%;
     font-size: 1.5rem;
     cursor: pointer;
+    width: 40px;
+    height: 40px;
+
+    &_size {
+        &_m {
+            width: 40px;
+            height: 40px;
+        }
+
+        &_l {
+            width: 48px;
+            height: 48px;
+        }
+    }
 
     &_left_yellow-bg {
         background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
-        color: #0B0B0B; /* Черная стрелка */
+
         &::before {
-            content: '←';
+            content: '';
+            display: block;
+            width: 12px;
+            height: 10px;
+            background-image: url('../../img/arrows/black-arrow-left.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
         }
     }
 
     &_left_black-bg {
         background-color: #0B0B0B;
-        color: #FFF; /* Белая стрелка */
+
         &::before {
-            content: '←';
+            content: '';
+            display: block;
+            width: 12px;
+            height: 10px;
+            background-image: url('../../img/arrows/white-arrow-left.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
         }
     }
 
     &_right_yellow-bg {
         background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
-        color: #0B0B0B; /* Черная стрелка */
+
         &::before {
-            content: '→';
+            content: '';
+            display: block;
+            width: 12px;
+            height: 10px;
+            background-image: url('../../img/arrows/black-arrow-right.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
         }
     }
 
     &_right_black-bg {
         background-color: #0B0B0B;
-        color: #FFF; /* Белая стрелка */
+
         &::before {
-            content: '→';
+            content: '';
+            display: block;
+            width: 12px;
+            height: 10px;
+            background-image: url('../../img/arrows/white-arrow-right.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
         }
     }
 }
