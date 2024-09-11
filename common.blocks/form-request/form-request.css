@@ -1,12 +1,11 @@
-.form-wrapper {
-    
-}
+.form-wrapper {}
 
 .form {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: 486px;
+    max-width: 486px;
+    width: 100%;
 }
 
 .form-field {

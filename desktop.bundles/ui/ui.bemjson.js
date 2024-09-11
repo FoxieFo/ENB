@@ -101,5 +101,12 @@ module.exports = {
         {tag: 'hr' },<!-- ################################################################################# -->
         { block: 'h2', tag: 'h2', 'mix': [{ block: 'font', mods: { 'headline': 'h2', 'weight': 'semibold', 'color': 'black' } }], content: 'Header' },
         { block : 'header'},
+        { tag: 'br' },
+        { tag: 'br' },
+        {tag: 'hr' },<!-- ################################################################################# -->
+        { block: 'h2', tag: 'h2', 'mix': [{ block: 'font', mods: { 'headline': 'h2', 'weight': 'semibold', 'color': 'black' } }], content: 'Footer' },
+        { tag: 'br' },
+        { tag: 'br' },
+        { block : 'footer'},
     ]
 };

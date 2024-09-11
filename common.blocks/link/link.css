@@ -3,6 +3,9 @@
     text-decoration: none;
     color: #00000080;
     transition: color .2s;
+    &_white{
+      color: white;
+    }
     &_hovered{
       color: #FFB629;
     }

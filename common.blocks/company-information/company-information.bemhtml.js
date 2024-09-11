@@ -1,4 +1,4 @@
-block('header-information')(
+block('company-information')(
     content()(function() {
         return [
             {
@@ -34,7 +34,7 @@ block('header-information')(
                 content: [
                     {
                         block: 'icon',
-                        mods: { 'time-dark': true }
+                        mods: { 'email-dark': true }
                     },
                     {
                         elem: 'info',
@@ -60,7 +60,7 @@ block('header-information')(
                 content: [
                     {
                         block: 'icon',
-                        mods: { 'time-dark': true }
+                        mods: { 'phone-dark': true }
                     },
                     {
                         elem: 'info',
